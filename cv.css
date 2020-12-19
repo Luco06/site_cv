@@ -39,33 +39,6 @@ h1,h2,h3{
     height: 25px;
    
 }
-.progress1{
-    background-color: #d8d8d8;
-    margin-top: 5px;
-    border-radius: 20px;
-    height: 25px;
-    width: 300px;
-   
-}
-.progress-done{
-    background:linear-gradient(to left,#020024, #009dff, #5fcb0d);
-    box-shadow: 0 3px -5px #009dff , 0 2px #5fcb0d;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    height: 100%;
-    width: 200px;
-    transition: 1s ease;
-
-}
-.progress>div{
-    margin-left: 2px;
-}
-.progress-bar{
-    background: green;
-}
 #foot{
     border: solid black 2px;
     width: 50%;
@@ -131,7 +104,7 @@ a:hover{
 	height: 100%;
 	width: 0;
 	opacity: 0;
-	transition: 1s ease 0.3s;
+	transition: 2.5s ease ;
 }
 #xp{
   margin-top: 50px;
