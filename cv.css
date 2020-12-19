@@ -4,6 +4,7 @@ body{
 h1,h2,h3{
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 .prez>p{
     border: solid black 1px;
@@ -30,10 +31,34 @@ h1,h2,h3{
     width: 200px;
     height: 120px;
 }
+
 .progress{
-    background: url('images/fond.jpg') repeat-x;
+    background-color: #d8d8d8;
     margin-top: 5px;
+    border-radius: 20px;
+    height: 25px;
    
+}
+.progress1{
+    background-color: #d8d8d8;
+    margin-top: 5px;
+    border-radius: 20px;
+    height: 25px;
+    width: 300px;
+   
+}
+.progress-done{
+    background:linear-gradient(to left,#020024, #009dff, #5fcb0d);
+    box-shadow: 0 3px -5px #009dff , 0 2px #5fcb0d;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    height: 100%;
+    width: 200px;
+    transition: 1s ease;
+
 }
 .progress>div{
     margin-left: 2px;
@@ -57,12 +82,55 @@ li img.icon{
     transition: 1.5s;
 }
 a{
+    align-items: center;
     text-decoration:none;
     color: black;
+}
+.lien{
+margin: auto;
+
 }
 a:hover{
     color: black; 
     
 }
+#container {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+  }
+  .skill{
+      display: flex;
+      flex-direction: column;
+  }
+  .progress1,
+  .progress2,
+  .progress3,
+  .progress4{
+	background-color: #d8d8d8;
+	border-radius: 20px;
+	position: relative;
+	margin: 15px 0;
+	height: 30px;
+    width: 300px;
+    margin-top: 10px;
+}
 
+.progress-done1,
+.progress-done2,
+.progress-done3,
+.progress-done4{
+	background: linear-gradient(to left, #F2709C, #FF9472);
+	box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
+	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
 
