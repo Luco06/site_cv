@@ -1,0 +1,68 @@
+body{
+    background:url('images/fond.jpg');
+}
+h1,h2,h3{
+    text-align: center;
+    margin-top: 20px;
+}
+.prez>p{
+    border: solid black 1px;
+    border-radius: 5%;
+    box-shadow: 10px 5px 5px black;
+    margin: auto;
+}
+.prez >p{
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+}
+#list,#foot{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.liste{
+    list-style: none;
+    margin: 25px;
+}
+.text-center{
+    width: 200px;
+    height: 120px;
+}
+.progress{
+    background: url('images/fond.jpg') repeat-x;
+    margin-top: 5px;
+   
+}
+.progress>div{
+    margin-left: 2px;
+}
+.progress-bar{
+    background: green;
+}
+#foot{
+    border: solid black 2px;
+    width: 50%;
+    margin: auto;
+    border-radius: 20%;
+}
+ li:hover img.icon{
+    transform: scale(1.5);
+    transition: .5s;  
+}
+li img.icon{
+    transform: scale(1);
+    cursor: pointer;
+    transition: 1.5s;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+a:hover{
+    color: black; 
+    
+}
+
+

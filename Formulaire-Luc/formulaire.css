@@ -1,0 +1,82 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header>h1 {
+    text-align: center;
+}
+
+body {
+    background:url(../images/fond.jpg);
+}
+
+
+
+form {
+    margin: auto;
+    width: 400px;
+    padding: 1em;
+    border: solid 1px black;
+    border-radius: 1em;
+    background-color: white;
+}
+
+form+article {
+    margin-top: 2em;
+}
+
+label {
+    float: left;
+    width: 90px;
+    font-family: sans-serif;
+}
+
+input,
+textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 1em;
+    margin-top: 2px;
+    padding-top: 2px;
+}
+
+input:focus,
+textarea:focus {
+    border-color: yellowgreen;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    width: 300px;
+}
+
+.button {
+    padding-left: 90px;
+}
+
+button {
+    margin-left: 5em;
+    display: inline-block;
+}
+
+.part,
+.ent {
+    width: 90px;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+#alert {
+    border: solid red;
+    max-width: 160px;
+    height: 100px;
+    margin: auto;
+}
+

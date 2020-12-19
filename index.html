@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="cv.css">
+    <title>Luc-Olivier YOHAN</title>
+</head>
+
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Luc-Olivier</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+                    <a class="nav-link" href="#skill">Compétences</a>
+                    <a class="nav-link" href="#book">Portfolio</a>
+                    <a class="nav-link" href="#xp">Expériences</a>
+                    <a class="nav-link" href="Formulaire-Luc/formulaire.html">Contact</a>
+                    <a class="nav-link" href="#reseau">Réseaux</a>
+                    <a class="nav-link" href="cv.pdf">CV PDF</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+    <!--titre et texte de motivation-->
+    <section class="container prez">
+
+        <h1>Luc-Olivier<br>
+             YOHAN</h1>
+        <h2>Developpeur d'applications multimédia</h2>
+        <h3>En alternance</h3>
+        <p>Dynamique, motivé, ambitieux et également challenger, cela me donne l'envie de toujours m'améliorer pour ainsi apprendre de nouvelles compétences et
+            pouvoir réaliser mes projets futurs.</p>
+
+    </section>
+
+    <!--zone barre de compétence dynamique-->
+    <main class="container">
+        <section class="skill" id="skill" >
+            <h2>Compétences</h2>
+            <p>HTML/CSS</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" id="html">
+                </div>
+            </div>
+            <p>Javascript</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0"
+                    aria-valuemax="100" id="js"></div>
+            </div>
+            <p>PHP</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0"
+                    aria-valuemax="100" id="php"></div>
+            </div>
+            <p>Java</p>
+            <div class="progress">
+                
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0"
+                    aria-valuemax="100" id="java"></div>
+            </div>
+        </section>
+
+        <section class="fram" id="fram">
+            <h2>Frameworks</h2>
+            <ul  id="list">
+                <div class="liste">
+                <li>Bootstrap <img class="icon"  src="images/boots.png"></li>
+            </div>
+
+            <div class="liste">
+                <li>JUnit <img class="icon"  src="images/Junit.png"></li>
+            </div>
+
+            <div class="liste">
+                <li>Maven <img class="icon"  src="images/maven.png"></li>
+            </div>
+
+            <div class="liste">
+                <li>Angular<img class="icon"  src="images/angular.png"></li>
+            </div>
+
+            <div class="liste">
+                <li>React <img class="icon" src="images/react.png"></li>
+            </div>
+
+            <div class="liste">
+                <li>Vue.Js <img class="icon"  src="images/vue.png"></li>
+            </div>
+            </ul>
+
+        </section>
+
+        <!--Portfolio-->
+        <section class="book" id="book">
+            <h2>Portfolio</h2>
+            <h3>Mes réalisations</h3>
+            <div class="text-center lien">
+                <h4>Hackaton JO 2024</h4>
+                <h5>Projet en équipe de début d'anné</h5>
+                <p><a href="Jo_Hackathon/index.html">Page d'acceuil du site(projet en cour)</a></p>
+              </div>
+
+        </section>
+
+        <!--xp accordion-->
+        <section class="xp" id="xp">
+            <h2>Expériences</h2>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <p>Chef d'équipe</p>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">La Grande Récré Beaugrenelle| juin 2019 à Octobre 2020 <br />
+                            Gestions des plannings<br />
+                            Gestion des stocks<br>
+                            Responsable SAV<br>
+                            Windows display Merchandising<br>
+                            Gestion et mise en place du PAC (Plan d'action commercial)</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <p>Second de cuisine</p>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Elior| septembre 2014 à septembre 2015<br>
+                            Confection de plats à disposition du personnels d'entreprise <br>
+                            Elaboration de la carte <br>
+                            Gestion des plannings <br>
+                            Gestion des commandes de marchandises <br>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    </section>
+    <!--lien réseaux-->
+    <h2 id="reseau">Réseaux</h2>
+    
+    <footer id="foot">
+        <div class="liste">
+            <li><a href="https://github.com/Luco06"><img class="icon" src="images/github.png"></li></a>
+        </div>
+
+        <div class="liste">
+            <li><a href="https://fr.linkedin.com/in/luc-olivier-yohan-837073159"><img class="icon" src="images/linkedin.png"></li></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+    <script src="cv.js"></script>
+</body>
+
+</html>

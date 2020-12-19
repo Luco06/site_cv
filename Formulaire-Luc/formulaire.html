@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+
+<body>
+    <header>
+        <h1>Formulaire de contact</h1>
+    </header>
+    <main>
+        <section id="formulaire">
+            <form id="form">
+                <artticle>
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="user">
+                </artticle>
+
+                <artticle>
+                    <label for="prenom">Prénom</label>
+                    <input id="prenom" type="text" id="prenom" prenom="user_name">
+                    <span id="manquePrenom"></span><br>
+                </artticle>
+
+                <artticle>
+                    <label for="mail">Adresse mail</label>
+                    <input type="email" id="mail" mail="user_mail">
+                </artticle>
+
+                <article id="ent">
+                    <input class="ent" type="radio" id="entre" name="bouton" value="entreprise">
+                    <label for="entreprise">Entreprise</label>
+                </article>
+
+                <article>
+                    <input class="part" type="radio" id="part" name="bouton" value="particulier">
+                    <label for="particulier">Particulier</label>
+                </article>
+
+                <div id="dataEntreprise">
+
+                    <article id="siret">
+                        <input type="text" id="ville" name="siret">
+                        <label for="siret">Ville</label>
+                    </article>
+
+                    <article id="nomentreprise">
+                        <input type="text" id="nomentreprise" name="nomentreprise">
+                        <label for="nomentre">Nom de l'entreprise</label>
+                    </article>
+                </div>
+
+                <article id="msg">
+                    <textarea name="user_message" id="msg" cols="30" rows="10"></textarea>
+                    <label for="msg">Message</label>
+                </article>
+
+                <article>
+                    <input type="file" id="fichier" name="envoiefichier" accept="pdf,jpeg,png,mp4">
+                    <label for="fichier">Choisir un fichier</label>
+                </article>
+
+                <article class="button">
+                    <button type="submit" id="submit">Envoyer votre message</button>
+                </article>
+
+            </form>
+            <div id="alert">
+                Veuillez remplir les champs vide !!
+
+            </div>
+        </section>
+        <footer></footer>
+    </main>
+    <script src="formulaire.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+
+</html>
