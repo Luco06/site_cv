@@ -109,4 +109,13 @@ a:hover{
 #xp{
   margin-top: 50px;
 }
-
+#book a{
+    color:black;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+#book a:hover{
+    color:transparent;
+    transition: 600ms ease;
+}

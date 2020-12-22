@@ -1,9 +1,3 @@
-/*var progress = document.getElementsByClassName('progress-done');
-setTimeout(()=>{
-   progress.style.witdh =  progress.getAttribute('data-done')+ '%';
-   progress.style.oppacity = 1;
-})*/
-
 
 const progress = document.querySelector('.progress-done1');
 
